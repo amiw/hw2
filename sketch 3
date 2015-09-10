@@ -1,0 +1,20 @@
+size(500,500);
+background(255);
+
+int lx=50;
+int ly=50;
+while (lx<450)
+{ 
+  
+  ly=50;
+   while(ly<450)
+   { 
+     noStroke();
+     colorMode(HSB,200,200,1);
+  fill(random(255),random(255),random(255));
+
+     ellipse(lx,ly,20,20); 
+     ly=ly+20;
+   }
+  lx=lx+20; 
+}
