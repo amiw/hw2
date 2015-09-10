@@ -1,0 +1,20 @@
+size(500,500);
+background(0);
+
+int lx=50;
+int ly=50;
+while (lx<=450)
+{ 
+  
+  ly=50;
+   while(ly<=450)
+   { 
+     if(lx-ly>=0 && lx+ly<=500)
+     {
+     ellipse(lx,ly,20,20);
+     }
+     ly=ly+20;
+     
+   }
+  lx=lx+20; 
+}
