@@ -1,0 +1,17 @@
+size(500,500);
+background(210);
+
+int lx=50;
+stroke(255);
+strokeWeight(3);
+while (lx<451)
+{
+  line( lx,50,lx,450);
+  lx=lx+20;
+}
+int ly=50;
+while (ly<451)
+{
+  line(50,ly,450,ly);
+  ly=ly+20;
+}
