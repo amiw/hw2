@@ -1,0 +1,24 @@
+void setup()
+{
+  size(500,500);
+  background(0);
+}
+void draw()
+{
+ stroke(255);
+int lx=0;
+while (lx<300)
+{
+  stroke(255);
+  line(lx,500,lx,mouseY);
+  if( lx<500)
+  {
+    lx=lx+20;
+  }
+  else
+  {
+    lx=0;
+  }
+
+}
+}
